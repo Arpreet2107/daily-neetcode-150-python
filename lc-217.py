@@ -9,4 +9,5 @@ class Solution:
         return False# If we finish iterating through the list without finding any duplicates, we return False
 # Time complexity: O(n) due to the set lookup and insertion operations, which on average are O(1) but can be O(n) in the worst case.
 # However, since we are only doing a single pass through the list, the overall time complexity is O(n).
-# Space complexity: O(n)
+# Space complexity: O(n) in the worst case, if all numbers in the input list are unique, we will store all of them in the set.
+# Therefore, the space complexity is O(n).
