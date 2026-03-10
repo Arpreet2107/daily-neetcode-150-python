@@ -46,3 +46,5 @@ class Codec:
 
         # Return list of decoded strings
         return res
+    #Time Complexity: O(n) where n is the total length of the encoded string.
+    #Space Complexity: O(n) for storing the encoded string and the decoded list of strings
